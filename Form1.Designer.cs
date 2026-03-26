@@ -49,8 +49,10 @@
             button18 = new Button();
             button17 = new Button();
             txtDisplay = new TextBox();
-            textBox2 = new TextBox();
+            txtMessage = new TextBox();
             textBox1 = new TextBox();
+            btnSquare = new Button();
+            btnSqrt = new Button();
             SuspendLayout();
             // 
             // button1
@@ -259,13 +261,13 @@
             txtDisplay.TabIndex = 20;
             txtDisplay.TextChanged += txtDisplay_TextChanged;
             // 
-            // textBox2
+            // txtMessage
             // 
-            textBox2.Location = new Point(66, 142);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(309, 23);
-            textBox2.TabIndex = 21;
-            textBox2.TextChanged += textBox2_TextChanged;
+            txtMessage.Location = new Point(66, 142);
+            txtMessage.Name = "txtMessage";
+            txtMessage.Size = new Size(309, 23);
+            txtMessage.TabIndex = 21;
+            txtMessage.TextChanged += textBox2_TextChanged;
             // 
             // textBox1
             // 
@@ -279,13 +281,35 @@
             textBox1.TabIndex = 22;
             textBox1.Text = "Simple Calculator";
             // 
+            // btnSquare
+            // 
+            btnSquare.Location = new Point(386, 252);
+            btnSquare.Name = "btnSquare";
+            btnSquare.Size = new Size(75, 23);
+            btnSquare.TabIndex = 23;
+            btnSquare.Text = "x²";
+            btnSquare.UseVisualStyleBackColor = true;
+            btnSquare.Click += btnSquare_Click;
+            // 
+            // btnSqrt
+            // 
+            btnSqrt.Location = new Point(386, 281);
+            btnSqrt.Name = "btnSqrt";
+            btnSqrt.Size = new Size(75, 23);
+            btnSqrt.TabIndex = 24;
+            btnSqrt.Text = "√";
+            btnSqrt.UseVisualStyleBackColor = true;
+            btnSqrt.Click += btnSqrt_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(468, 459);
+            Controls.Add(btnSqrt);
+            Controls.Add(btnSquare);
             Controls.Add(textBox1);
-            Controls.Add(textBox2);
+            Controls.Add(txtMessage);
             Controls.Add(txtDisplay);
             Controls.Add(button17);
             Controls.Add(button18);
@@ -339,5 +363,10 @@
         private TextBox txtDisplay;
         private TextBox textBox2;
         private TextBox textBox1;
+        private Button button21;
+        private Button button22;
+        private TextBox txtMessage;
+        private Button btnSquare;
+        private Button btnSqrt;
     }
 }
