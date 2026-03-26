@@ -59,15 +59,15 @@ namespace SimpleCalculator
                     result = firstNum + secondNum;
                     break;
                 case "-":
-                case "－": 
+                case "－":
                     result = firstNum - secondNum;
                     break;
                 case "*":
-                case "×": 
+                case "×":
                     result = firstNum * secondNum;
                     break;
                 case "/":
-                case "÷": 
+                case "÷":
                     if (secondNum != 0)
                     {
                         result = firstNum / secondNum;
@@ -99,12 +99,20 @@ namespace SimpleCalculator
         {
             Button btn = (Button)sender;
 
-            
+
             firstNum = int.Parse(txtDisplay.Text);
 
             operation = btn.Text;
 
             isOpClicked = true;
+        }
+
+        private void btnC_Click(object sender, EventArgs e)
+        {
+            firstNum = 0;
+            operation = "";
+            isOpClicked = false;
+            txtDisplay.Text = "0";
         }
     }
 }
