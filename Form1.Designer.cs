@@ -267,7 +267,7 @@
             textBox1.BorderStyle = BorderStyle.None;
             textBox1.Font = new Font("Tahoma", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
             textBox1.ForeColor = SystemColors.Highlight;
-            textBox1.Location = new Point(43, 48);
+            textBox1.Location = new Point(42, 50);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(371, 58);
             textBox1.TabIndex = 22;
