@@ -61,25 +61,31 @@ UI 구성: TableLayoutPanel을 사용하여 계산기 버튼을 격자 형태로
 
 ## 실행 화면 (과제2)
 - 과제2 코드의 실행 스크린샷
-![과제2 실행화면](img/screenshot-f.png)
+<img width="479" height="496" alt="f" src="https://github.com/user-attachments/assets/1fc9332d-0c89-4453-9a54-7e9d4513b2c7" />
 
-![과제2 실행화면](img/screenshot-g.png)
 
-![과제2 실행화면](img/screenshot-h.png)
+<img width="475" height="498" alt="g" src="https://github.com/user-attachments/assets/2de147b2-de32-4bd3-91ae-43e4652ea0d6" />
+
+
+<img width="473" height="502" alt="h" src="https://github.com/user-attachments/assets/5e3e183b-e265-4111-a2d9-11b88d01fdbc" />
+
 3에서 2를 빼서 1이 나옴
 
-![과제2 실행화면](img/screenshot-i.png)
+<img width="475" height="506" alt="i" src="https://github.com/user-attachments/assets/0ab183cf-ee07-437d-9c17-bbab47591152" />
 
-![과제2 실행화면](img/screenshot-j.png)
+<img width="478" height="497" alt="j" src="https://github.com/user-attachments/assets/1d617099-e0ff-4711-82d5-1deadabd52c2" />
 
-![과제2 실행화면](img/screenshot-k.png)
+<img width="478" height="498" alt="k" src="https://github.com/user-attachments/assets/9c3babe8-e2a3-441d-9145-9198fec9fc85" />
+
+
 9에 5를 곱해서 45가 나옴
 
-![과제2 실행화면](img/screenshot-l.png)
+<img width="480" height="500" alt="l" src="https://github.com/user-attachments/assets/63efc39a-2634-40de-b89d-3b58f2c29483" />
 
-![과제2 실행화면](img/screenshot-m.png)
+<img width="481" height="495" alt="m" src="https://github.com/user-attachments/assets/8f56bc83-a901-4792-97f7-807a5d3172d2" />
 
-![과제2 실행화면](img/screenshot-n.png)
+<img width="474" height="496" alt="n" src="https://github.com/user-attachments/assets/f0a1cdfc-7e1b-406b-a30a-d48e6d2db33a" />
+
 9를 3으로 나눠서 3이 나옴
 
 
@@ -98,28 +104,29 @@ UI 구성: TableLayoutPanel을 사용하여 계산기 버튼을 격자 형태로
 
 ## 실행 화면 (과제3)
 - 과제3 코드의 실행 스크린샷
-![과제3 실행화면](img/screenshot-1.png)
+<img width="477" height="491" alt="3" src="https://github.com/user-attachments/assets/10b46cee-5ed1-44ad-ba46-738ee8d1fe43" />
 
-![과제3 실행화면](img/screenshot-2.png)
+<img width="474" height="504" alt="2" src="https://github.com/user-attachments/assets/7b30cf15-ccb9-4bf3-8964-64ce537712f1" />
 
-![과제3 실행화면](img/screenshot-3.png)
+<img width="474" height="504" alt="1" src="https://github.com/user-attachments/assets/115b296c-a289-4db5-92e0-05681ff7baf9" />
 
-![과제3 실행화면](img/screenshot-4.png)
+<img width="474" height="497" alt="5" src="https://github.com/user-attachments/assets/e75f5e9e-0512-4601-851e-03c409439536" />
 
-![과제3 실행화면](img/screenshot-5.png)
+<img width="481" height="496" alt="4" src="https://github.com/user-attachments/assets/e834f344-7a25-46b1-b7b5-34fdd39cd256" />
 
 de 버튼을 사용하여 삭제 후 원래 입력되어있던 8까지 삭제하는 것이 아닌 잘못 입력한 5만 삭제함
 5만 깔끔하게 삭제되어 8x6이 계산됨
 
-![과제3 실행화면](img/screenshot-6.png)
+<img width="478" height="495" alt="6" src="https://github.com/user-attachments/assets/44834d23-4c70-4151-906d-940f966ac04f" />
 
-![과제3 실행화면](img/screenshot-7.png)
+<img width="480" height="501" alt="7" src="https://github.com/user-attachments/assets/31b07f02-77c7-4371-8b34-631cb5d7f21e" />
 
 c 버튼을 사용하여 현재의 모든 내용을 삭제하고 처음 (초기화된) 상태로 되돌아감
 
-![과제3 실행화면](img/screenshot-8.png)
+<img width="474" height="502" alt="8" src="https://github.com/user-attachments/assets/ff193e6d-28ea-47f2-80a7-10cc2517ee63" />
 
-![과제3 실행화면](img/screenshot-9.png)
+<img width="475" height="497" alt="9" src="https://github.com/user-attachments/assets/d822396e-889a-46ca-9e44-035126a341a8" />
+
 del 버튼을 사용하여 마지막 입력된 글자 하나 (숫자 하나) 값을 삭제함
 
 
