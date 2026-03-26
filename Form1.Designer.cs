@@ -86,7 +86,7 @@
             button4.Name = "button4";
             button4.Size = new Size(75, 23);
             button4.TabIndex = 3;
-            button4.Text = "%";
+            button4.Text = "÷";
             button4.UseVisualStyleBackColor = true;
             button4.Click += btnOperator_Click;
             // 
@@ -126,7 +126,7 @@
             button5.Name = "button5";
             button5.Size = new Size(75, 23);
             button5.TabIndex = 7;
-            button5.Text = "X";
+            button5.Text = "×";
             button5.UseVisualStyleBackColor = true;
             button5.Click += btnOperator_Click;
             // 

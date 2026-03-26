@@ -52,20 +52,22 @@ namespace SimpleCalculator
             int secondNum = int.Parse(txtDisplay.Text);
             int result = 0;
 
-            
+
             switch (operation)
             {
                 case "+":
                     result = firstNum + secondNum;
                     break;
                 case "-":
+                case "－": 
                     result = firstNum - secondNum;
                     break;
                 case "*":
+                case "×": 
                     result = firstNum * secondNum;
                     break;
                 case "/":
-                    
+                case "÷": 
                     if (secondNum != 0)
                     {
                         result = firstNum / secondNum;
@@ -78,7 +80,7 @@ namespace SimpleCalculator
                     break;
             }
 
-           
+
             txtDisplay.Text = result.ToString();
             isOpClicked = false;
         }
