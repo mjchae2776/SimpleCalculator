@@ -52,16 +52,35 @@ namespace SimpleCalculator
             int secondNum = int.Parse(txtDisplay.Text);
             int result = 0;
 
-
-            if (operation == "+")
+            
+            switch (operation)
             {
-                result = firstNum + secondNum;
+                case "+":
+                    result = firstNum + secondNum;
+                    break;
+                case "-":
+                    result = firstNum - secondNum;
+                    break;
+                case "*":
+                    result = firstNum * secondNum;
+                    break;
+                case "/":
+                    
+                    if (secondNum != 0)
+                    {
+                        result = firstNum / secondNum;
+                    }
+                    else
+                    {
+                        MessageBox.Show("0으로 나눌 수 없습니다!");
+                        return;
+                    }
+                    break;
             }
 
-
+           
             txtDisplay.Text = result.ToString();
-
-            operation = "";
+            isOpClicked = false;
         }
 
         private void txtDisplay_TextChanged(object sender, EventArgs e)
@@ -72,6 +91,18 @@ namespace SimpleCalculator
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnOperator_Click(object sender, EventArgs e)
+        {
+            Button btn = (Button)sender;
+
+            
+            firstNum = int.Parse(txtDisplay.Text);
+
+            operation = btn.Text;
+
+            isOpClicked = true;
         }
     }
 }

@@ -88,6 +88,7 @@
             button4.TabIndex = 3;
             button4.Text = "%";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += btnOperator_Click;
             // 
             // button8
             // 
@@ -127,6 +128,7 @@
             button5.TabIndex = 7;
             button5.Text = "X";
             button5.UseVisualStyleBackColor = true;
+            button5.Click += btnOperator_Click;
             // 
             // button16
             // 
@@ -166,6 +168,7 @@
             button13.TabIndex = 11;
             button13.Text = "-";
             button13.UseVisualStyleBackColor = true;
+            button13.Click += btnOperator_Click;
             // 
             // button12
             // 
@@ -205,7 +208,7 @@
             button9.TabIndex = 15;
             button9.Text = "+";
             button9.UseVisualStyleBackColor = true;
-            button9.Click += btnAdd_Click;
+            button9.Click += btnOperator_Click;
             // 
             // button20
             // 
