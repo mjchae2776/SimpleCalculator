@@ -49,7 +49,19 @@ namespace SimpleCalculator
 
         private void btnEqual_Click(object sender, EventArgs e)
         {
-            
+            int secondNum = int.Parse(txtDisplay.Text);
+            int result = 0;
+
+
+            if (operation == "+")
+            {
+                result = firstNum + secondNum;
+            }
+
+
+            txtDisplay.Text = result.ToString();
+
+            operation = "";
         }
 
         private void txtDisplay_TextChanged(object sender, EventArgs e)
