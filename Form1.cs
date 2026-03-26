@@ -114,5 +114,10 @@ namespace SimpleCalculator
             isOpClicked = false;
             txtDisplay.Text = "0";
         }
+
+        private void btnCE_Click(object sender, EventArgs e)
+        {
+            txtDisplay.Text = "0";
+        }
     }
 }

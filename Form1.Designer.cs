@@ -61,6 +61,7 @@
             button1.TabIndex = 0;
             button1.Text = "CE";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += btnCE_Click;
             // 
             // button2
             // 
