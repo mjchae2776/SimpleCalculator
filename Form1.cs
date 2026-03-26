@@ -119,5 +119,20 @@ namespace SimpleCalculator
         {
             txtDisplay.Text = "0";
         }
+
+        private void btnDel_Click(object sender, EventArgs e)
+        {
+            if (txtDisplay.Text.Length > 0)
+            {
+                
+                txtDisplay.Text = txtDisplay.Text.Substring(0, txtDisplay.Text.Length - 1);
+            }
+
+            
+            if (txtDisplay.Text == "")
+            {
+                txtDisplay.Text = "0";
+            }
+        }
     }
 }

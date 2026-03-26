@@ -81,6 +81,7 @@
             button3.TabIndex = 2;
             button3.Text = "del";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += btnDel_Click;
             // 
             // button4
             // 
